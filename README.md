@@ -33,6 +33,7 @@ NPM Packages: Additional functionalities for specific needs.
 Cloud Storage:
 Cloudinary: Cloud-based image storage and management platform for storing and handling user-uploaded listing images.
 Prerequisites
+Mapbox:To provide the exact location after booking of the sight in maps
 
 
 Contributing We welcome contributions to Wanderlust!
