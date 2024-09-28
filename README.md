@@ -1,5 +1,3 @@
-Live Project Click here
-
 Project Overview
 
 Wanderlust is a web application inspired by Airbnb, built using JavaScript (JS), HTML, CSS, Node.js, Express.js, EJS templating, Passport.js for authentication, and various other NPM packages. It follows a well-structured Model-View-Controller (MVC) architecture for efficient development and maintainability.
@@ -36,31 +34,5 @@ Cloud Storage:
 Cloudinary: Cloud-based image storage and management platform for storing and handling user-uploaded listing images.
 Prerequisites
 
-Cloudinary Account: Create a free Cloudinary account at https://cloudinary.com/ to store images for your listings.
-Node.js and npm: Ensure you have Node.js and npm (Node Package Manager) installed on your system. You can download them from https://nodejs.org/en.
-Setting Up Cloudinary Credentials
-
-Create a Cloudinary account and log in.
-Navigate to the "Settings" -> "API Keys" section.
-Copy the values for Cloud Name, API Key, and API Secret.
-Create a file named .env (note the leading dot) in your project's root directory. This file is not version-controlled for security reasons.
-Paste the copied Cloudinary credentials into the .env file, following this format:
-CLOUD_NAME=your_cloud_name
-CLOUD_API_KEY=your_api_key
-CLOUD_API_SECRET=your_api_secret
-MONGO_URL=mongodb://localhost:27017/wanderlust
-REDIS_URL="redis-cli -h redis15.localnet.org -p 6390"
-REDIS_PASS=YOUR_PASSWORD
-SECRET=KEYBOARD_KAT
-Running the Project
-Open a terminal window in your project's root directory.
-Install the project's dependencies:
-yarn install
-If you want to init default database then
-node ./init/index.js
-After the completion message, press CTRL + C and run this command:
-
-yarn start
-This will typically start the server on http://localhost:8090 . You can access the application in your web browser.
 
 Contributing We welcome contributions to Wanderlust!
