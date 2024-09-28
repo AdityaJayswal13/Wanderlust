@@ -61,6 +61,6 @@ node ./init/index.js
 After the completion message, press CTRL + C and run this command:
 
 yarn start
-This will typically start the server on http://localhost:3000 . You can access the application in your web browser.
+This will typically start the server on http://localhost:8090 . You can access the application in your web browser.
 
 Contributing We welcome contributions to Wanderlust!
